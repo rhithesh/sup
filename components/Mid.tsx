@@ -1,31 +1,26 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/9PFhyu78TN0
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 export default function Mid() {
 	return (
 		<section className="w-full py-12 md:py-24 lg:py-32  dark:from-gray-800 dark:via-gray-700 dark:to-gray-600">
 			<div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
 				<div className="space-y-3">
 					<h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
-						Choose Your Meditation Style
+						Why choose Supp
 					</h2>
 					<p className="mx-auto max-w-[700px] text-gray-200 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-						Select a meditation style that suits your needs and preferences.
+						A place where you can choose to hangout with your friends
 					</p>
 				</div>
 				<div className="grid w-full grid-cols-1 md:grid-cols-3 items-stretch justify-center gap-8 md:gap-12">
 					<div className="flex flex-col items-center p-4 sm:p-8 bg-white rounded-lg shadow-lg">
 						<UserIcon className="h-12 w-12 mb-4 text-purple-500" />
-						<h3 className="text-2xl font-bold mb-2">Solo Meditation</h3>
+						<h3 className="text-2xl font-bold mb-2">Gym</h3>
 						<p className="text-gray-500">
 							Experience a personal journey of tranquility and self-discovery.
 						</p>
 					</div>
 					<div className="flex flex-col items-center p-4 sm:p-8 bg-white rounded-lg shadow-lg">
 						<UsersIcon className="h-12 w-12 mb-4 text-pink-500" />
-						<h3 className="text-2xl font-bold mb-2">Group Meditation</h3>
+						<h3 className="text-2xl font-bold mb-2">Party</h3>
 						<p className="text-gray-500">
 							Join a community of like-minded individuals in a shared meditation
 							session.
@@ -33,7 +28,7 @@ export default function Mid() {
 					</div>
 					<div className="flex flex-col items-center p-4 sm:p-8 bg-white rounded-lg shadow-lg">
 						<HeadphonesIcon className="h-12 w-12 mb-4 text-red-500" />
-						<h3 className="text-2xl font-bold mb-2">Guided Meditation</h3>
+						<h3 className="text-2xl font-bold mb-2">Trekking</h3>
 						<p className="text-gray-500">
 							Follow along with a guided meditation for a structured experience.
 						</p>
